@@ -1,4 +1,4 @@
-package br.com.fantini.resteasy.security.utils;
+package security.utils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

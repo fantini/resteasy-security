@@ -1,4 +1,4 @@
-package br.com.fantini.resteasy.security.provider.authentication;
+package security.provider.authentication;
 
 import java.util.Date;
 import java.util.List;
@@ -6,8 +6,9 @@ import java.util.Map;
 
 import org.codehaus.jackson.map.util.ISO8601Utils;
 
-import br.com.fantini.resteasy.security.utils.HttpRequestHMAC;
-import br.com.fantini.resteasy.security.utils.UtilsHMAC;
+import security.utils.HttpRequestHMAC;
+import security.utils.UtilsHMAC;
+
 
 /**
  * Classe responsavel pelo processo de validacao da autenticacao do client.

@@ -1,4 +1,4 @@
-package br.com.fantini.resteasy.security.provider.annotation;
+package security.provider.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

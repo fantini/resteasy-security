@@ -1,4 +1,4 @@
-package br.com.fantini.resteasy.security.provider.interceptor;
+package security.provider.interceptor;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -25,14 +25,15 @@ import org.jboss.resteasy.spi.HttpRequest;
 import org.jboss.resteasy.spi.interception.PostProcessInterceptor;
 import org.jboss.resteasy.spi.interception.PreProcessInterceptor;
 
-import br.com.fantini.resteasy.security.provider.annotation.RestLog;
-import br.com.fantini.resteasy.security.provider.annotation.RestRolesAllowed;
-import br.com.fantini.resteasy.security.provider.authentication.AuthenticationHMAC;
-import br.com.fantini.resteasy.security.provider.dto.LogWSDTO;
-import br.com.fantini.resteasy.security.provider.jdbc.JDBCSecurity;
-import br.com.fantini.resteasy.security.utils.HttpHeadersHMAC;
-import br.com.fantini.resteasy.security.utils.TypeLog;
-import br.com.fantini.resteasy.security.utils.UtilsHMAC;
+import security.provider.annotation.RestLog;
+import security.provider.annotation.RestRolesAllowed;
+import security.provider.authentication.AuthenticationHMAC;
+import security.provider.dto.LogWSDTO;
+import security.provider.jdbc.JDBCSecurity;
+import security.utils.HttpHeadersHMAC;
+import security.utils.TypeLog;
+import security.utils.UtilsHMAC;
+
 /**
  * Classe responsavel por interceptar a requisicao rest. Valida a seguranca
  * dos metodos e classes anotados. Efetua o processo de log conforme configuracao.

@@ -1,4 +1,4 @@
-package br.com.fantini.resteasy.security.provider.dto;
+package security.provider.dto;
 
 import java.util.Date;
 
@@ -6,8 +6,9 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.codehaus.jackson.map.ObjectMapper;
 
-import br.com.fantini.resteasy.security.utils.HttpHeadersHMAC;
-import br.com.fantini.resteasy.security.utils.TypeLog;
+import security.utils.HttpHeadersHMAC;
+import security.utils.TypeLog;
+
 
 public class LogWSDTO {
 

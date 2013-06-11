@@ -1,4 +1,4 @@
-package br.com.fantini.resteasy.security.utils;
+package security.utils;
 
 /**
  * Enum contendo os parametros utilizados para
