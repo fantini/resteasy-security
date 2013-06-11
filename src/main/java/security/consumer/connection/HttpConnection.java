@@ -1,4 +1,4 @@
-package br.com.fantini.resteasy.security.consumer.connection;
+package security.consumer.connection;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -30,8 +30,9 @@ import org.codehaus.jackson.map.DeserializationConfig.Feature;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.map.util.ISO8601Utils;
 
-import br.com.fantini.resteasy.security.utils.HttpRequestHMAC;
-import br.com.fantini.resteasy.security.utils.UtilsHMAC;
+import security.utils.HttpRequestHMAC;
+import security.utils.UtilsHMAC;
+
 
 /**
  * Classe utilizada pelo client Java para realizar a requisicao REST.

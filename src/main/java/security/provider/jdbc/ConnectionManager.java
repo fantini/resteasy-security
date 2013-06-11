@@ -1,4 +1,4 @@
-package br.com.fantini.resteasy.security.provider.jdbc;
+package security.provider.jdbc;
 
 import java.sql.Connection;
 import java.sql.SQLException;
